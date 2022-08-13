@@ -10,7 +10,7 @@ class LoginView extends GetView<LoginController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 65, 253, 253),
+      backgroundColor: Color.fromARGB(255, 243, 246, 246),
       body: Container(
         margin: EdgeInsets.all(Get.height * 0.1),
         decoration: BoxDecoration(
@@ -24,7 +24,7 @@ class LoginView extends GetView<LoginController> {
                 child: Container(
                   padding: EdgeInsets.all(12),
              decoration: BoxDecoration(
-               color: Color.fromARGB(255, 64, 113, 153),
+               color: Color.fromARGB(111, 0, 22, 41),
               borderRadius: BorderRadius.only(topLeft: Radius.circular(50), bottomLeft: Radius.circular(50))
              ),
               

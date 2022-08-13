@@ -14,7 +14,7 @@ class SideBar extends StatelessWidget {
       elevation: 1,
       child: Container(
         height: Get.height,
-        color: Colors.blue[100],
+        color: Color.fromARGB(255, 3, 28, 49),
         child: SingleChildScrollView(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.start,
@@ -50,7 +50,7 @@ class SideBar extends StatelessWidget {
                         SizedBox(
                           height: 10,
                         ),
-                        Text("Menu")
+                        Text("Menu", style :TextStyle(color: Colors.white))
                       ],
                     ),
                   ),
@@ -88,7 +88,7 @@ class SideBar extends StatelessWidget {
                         SizedBox(
                           height: 10,
                         ),
-                        Text("Task")
+                        Text("Task", style :TextStyle(color: Colors.white))
                       ],
                     ),
                   ),
@@ -127,7 +127,7 @@ class SideBar extends StatelessWidget {
                         SizedBox(
                           height: 10,
                         ),
-                        Text("friends")
+                        Text("friends", style :TextStyle(color: Colors.white))
                       ],
                     ),
                   ),
@@ -166,7 +166,7 @@ class SideBar extends StatelessWidget {
                         SizedBox(
                           height: 10,
                         ),
-                        Text("profile")
+                        Text("profile", style :TextStyle(color: Colors.white))
                       ],
                     ),
                   ),

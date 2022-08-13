@@ -43,7 +43,7 @@ class Header extends StatelessWidget {
                     borderSide: const BorderSide(color: Colors.white)),
                 focusedBorder: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(20),
-                  borderSide: const BorderSide(color: Colors.blue),
+                  borderSide: const BorderSide(color: Colors.white),
                 ),
                 prefixIcon: const Icon(Icons.search),
                 hintText: 'Cari Disini',

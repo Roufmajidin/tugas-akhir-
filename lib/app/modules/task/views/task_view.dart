@@ -19,7 +19,7 @@ class TaskView extends GetView<TaskController> {
     return Scaffold(
       key: _drawerKey,
       drawer: const SizedBox(width: 150, child: SideBar()),
-      backgroundColor: appColor.primaryBg,
+      backgroundColor: Color.fromARGB(255, 3, 28, 49),
       body: SafeArea(
         child: Row(
           children: [
@@ -90,11 +90,11 @@ class TaskView extends GetView<TaskController> {
                           ),
                         ),
                   // Bagian Isi
-                  Expanded(
+                 Expanded(
                     child: Container(
                       padding: !context.isPhone
                           ? const EdgeInsets.all(10)
-                          : const EdgeInsets.all(10),
+                          : const EdgeInsets.all(2),
                       margin:
                           !context.isPhone ? const EdgeInsets.all(10) : null,
                       decoration: BoxDecoration(

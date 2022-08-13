@@ -20,7 +20,7 @@ class FriendView extends GetView<FriendController> {
     return Scaffold(
       key: _drawwerKey,
       drawer: const SizedBox(width: 150, child: SideBar()),
-      backgroundColor: appColor.primaryBg,
+      backgroundColor: Color.fromARGB(255, 3, 28, 49),
       body: SafeArea(
         child: Row(
           children: [
@@ -133,11 +133,10 @@ class FriendView extends GetView<FriendController> {
                         ),
                   //content / isipage /screen
                   Expanded(
-                  //auto berjarak margin
                     child: Container(
                       padding: !context.isPhone
-                          ? const EdgeInsets.all(30)
-                          : const EdgeInsets.all(10),
+                          ? const EdgeInsets.all(10)
+                          : const EdgeInsets.all(2),
                       margin:
                           !context.isPhone ? const EdgeInsets.all(10) : null,
                       decoration: BoxDecoration(
