@@ -1,4 +1,4 @@
-name: mobile_programming_rouf
+name: management_taks_apps
 version: 1.0.0+1
 publish_to: none
 description: A new Flutter project.
@@ -7,7 +7,16 @@ environment:
 
 dependencies: 
   cupertino_icons: ^1.0.2
+  firebase_auth: ^3.4.2
+  firebase_core: 1.19.2
   get: 4.6.5
+  google_sign_in: ^5.4.0
+  firebase_auth_web: ^4.0.0
+ 
+  google_sign_in_web: ^0.10.2
+  cloud_firestore: 3.4.3
+  date_time_picker: 2.1.0
+ 
   flutter: 
     sdk: flutter
 
@@ -17,6 +26,7 @@ dev_dependencies:
     sdk: flutter
 
 flutter: 
+  assets: 
+    - assets/image/
   uses-material-design: true
-  assets:
-   - assets/image/
+

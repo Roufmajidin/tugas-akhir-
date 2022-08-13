@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "953534661037",
+    "project_id": "majid-uas",
+    "storage_bucket": "majid-uas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953534661037:android:c4977af94ff15d6c362124",
+        "android_client_info": {
+          "package_name": "com.example.mobile_programming_rouf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953534661037-1gikpnmtaso6jp8up27ct0qjb4dtem8q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV70MlXRN1di8bp72oDkrQ-1DhLPyVivI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953534661037-1gikpnmtaso6jp8up27ct0qjb4dtem8q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
